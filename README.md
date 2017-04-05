@@ -41,5 +41,25 @@ This project depends on Git submodules. Therefore you have to clone it with the 
 
 ```
 git clone https://github.com/transpect/idml2xml-frontend --recursive
-cd idml2xml-frontend
 ```
+
+## Invocation
+
+### Bash
+
+For convenient use on command line, we provide a simple Bash script. You can run it in this way:
+```
+`./idml2xml.sh sample/hello-world.idml
+```
+
+### Calabash
+
+We provide also Bash and Windows Batch scripts to invoke the XProc pipeline directly:
+
+```
+./calabash.sh -o result=sample/hello-world.xml xpl/idml2xml-frontend.xpl idml=sample/hello-world.idml
+```
+
+## Include idml2xml in your XProc project
+
+Please refer to this [tutorial](http://transpect.github.io/getting-started.html) for a more extensive documentation.
