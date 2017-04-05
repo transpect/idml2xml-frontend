@@ -12,6 +12,8 @@
   
   <p:output port="result"/>
   
+  <p:serialization port="result" omit-xml-declaration="false"/>
+  
   <p:option name="idml"/>
   <p:option name="debug" select="'no'"/>
   <p:option name="debug-dir-uri" select="'yes'"/>
