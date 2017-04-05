@@ -4,6 +4,12 @@
   xmlns:idml2xml="http://transpect.io/idml2xml"
   version="1.0">
   
+  <p:documentation>
+    Frontend pipeline which implements the idml2xml library. 
+    This step takes an IDML file from InDesign and transform it 
+    to Hub XML.
+  </p:documentation>
+  
   <p:output port="result"/>
   
   <p:option name="idml"/>
