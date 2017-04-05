@@ -23,5 +23,9 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="idml2xml.xpr"/>
+    <projectTree name="idml2xml.xpr">
+        <folder masterFiles="true" name="Master Files">
+            <file name="xpl/idml2xml-frontend.xpl"/>
+        </folder>
+    </projectTree>
 </project>
