@@ -1,2 +1,45 @@
 # idml2xml-frontend
-Frontend for idml2xml library
+
+Implements the [idml2xml](https://github.com/transpect/idml2xml) library to transform IDML to XML.
+
+## Introduction
+
+Considering this [hello word example](https://github.com/transpect/idml2xml-frontend/tree/master/sample), idml2xml will generate flat [Hub XML with CSSa XML attributes](http://publishinggeekly.com/wp-content/uploads/2013/01/CSSa.pdf). 
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.le-tex.de/resource/schema/hub/1.2/hub.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.le-tex.de/resource/schema/hub/1.2/hub.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<hub xmlns="http://docbook.org/ns/docbook" xmlns:css="http://www.w3.org/1996/css" xml:lang="de-DE-2006" version="5.1-variant le-tex_Hub-1.2"
+  css:version="3.0-variant le-tex_Hub-1.2" css:rule-selection-attribute="role">
+  <info>
+    <keywordset role="hub">
+      <!-- Hub format properties -->
+    </keywordset>
+    <css:rules>
+      <css:rule name="myStyle" native-name="myStyle" layout-type="para" 
+        css:color="device-cmyk(0,0,0,1)" css:font-weight="normal"
+        css:font-style="normal" css:font-size="12pt" css:text-transform="none" 
+        css:margin-left="0pt" css:margin-right="0pt" css:text-indent="0pt"
+        xml:lang="de-DE-2006" css:hyphens="auto" css:margin-top="0pt" 
+        css:margin-bottom="0pt" css:text-decoration-line="none"
+        css:page-break-before="auto" css:text-align="left" css:direction="ltr" 
+        css:font-family="Minion Pro"/>
+    </css:rules>
+  </info>
+  <para role="myStyle">hello world</para>
+</hub>
+```
+
+## Requirements
+
+At least Java 1.7 is required.
+
+## Clone this project
+
+This project depends on Git submodules. Therefore you have to clone it with the `--recursive` option to get the submodules, too:
+
+```
+git clone https://github.com/transpect/idml2xml-frontend --recursive
+cd idml2xml-frontend
+```
