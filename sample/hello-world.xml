@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.le-tex.de/resource/schema/hub/1.2/hub.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.le-tex.de/resource/schema/hub/1.2/hub.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<hub xmlns="http://docbook.org/ns/docbook" xmlns:css="http://www.w3.org/1996/css" xml:lang="de-DE-2006" version="5.1-variant le-tex_Hub-1.2"
+  css:version="3.0-variant le-tex_Hub-1.2" css:rule-selection-attribute="role">
+  <info>
+    <keywordset role="hub">
+      <keyword role="source-basename">hello-world</keyword>
+      <keyword role="source-dir-uri">file:/C:/cygwin64/home/kraetke/idml2xml-frontend/sample/hello-world.idml.tmp/</keyword>
+      <keyword role="archive-dir-uri">file:/C:/cygwin64/home/kraetke/idml2xml-frontend/sample/</keyword>
+      <keyword role="source-paths">false</keyword>
+      <keyword role="used-rules-only">true</keyword>
+      <keyword role="formatting-deviations-only">true</keyword>
+      <keyword role="source-type">idml</keyword>
+      <keyword role="toc-title">Inhalt</keyword>
+      <keyword role="type-area-width">523.275590551</keyword>
+    </keywordset>
+    <css:rules>
+      <css:rule name="myStyle" native-name="myStyle" layout-type="para" css:color="device-cmyk(0,0,0,1)" css:font-weight="normal"
+        css:font-style="normal" css:font-size="12pt" css:text-transform="none" css:margin-left="0pt" css:margin-right="0pt" css:text-indent="0pt"
+        xml:lang="de-DE-2006" css:hyphens="auto" css:margin-top="0pt" css:margin-bottom="0pt" css:text-decoration-line="none"
+        css:page-break-before="auto" css:text-align="left" css:direction="ltr" css:font-family="Minion Pro"/>
+    </css:rules>
+  </info>
+  <para role="myStyle">hello world</para>
+</hub>
