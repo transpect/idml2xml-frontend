@@ -4,7 +4,7 @@ Implements the [idml2xml](https://github.com/transpect/idml2xml) library to tran
 
 ## Introduction
 
-Considering this [hello word example](https://github.com/transpect/idml2xml-frontend/tree/master/sample), idml2xml will generate flat [Hub XML with CSSa XML attributes](http://publishinggeekly.com/wp-content/uploads/2013/01/CSSa.pdf). 
+Considering this [hello world example](https://github.com/transpect/idml2xml-frontend/tree/master/sample), idml2xml will generate flat [Hub XML with CSSa XML attributes](http://publishinggeekly.com/wp-content/uploads/2013/01/CSSa.pdf). 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -49,7 +49,7 @@ git clone https://github.com/transpect/idml2xml-frontend --recursive
 
 For convenient use on command line, we provide a simple Bash script. You can run it in this way:
 ```
-`./idml2xml.sh sample/hello-world.idml
+./idml2xml.sh sample/hello-world.idml
 ```
 
 ### Calabash
