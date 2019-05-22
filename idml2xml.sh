@@ -12,7 +12,7 @@ function usage {
     1>&2; exit 1;
 }
 function exitonerror {
-    echo "Errors encountered while running $2. Exited with code $1."
+    echo "[ERROR] $2. Exited with code $1."
     echo "For details see $LOG"
     exit 1
 }
@@ -91,8 +91,7 @@ fi
 
 # check if file exists
 if [ ! -f $FILE ]; then
-    echo "Error: input file not found: $FILE"
-    usage
+    exitonerror 1 "input file not found: $FILE"
 fi
 
 echo "starting idml2xml"
