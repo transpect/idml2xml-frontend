@@ -12,7 +12,7 @@
   
   <p:output port="result"/>
   
-  <p:serialization port="result" omit-xml-declaration="false"/>
+  <p:serialization port="result" indent="true" omit-xml-declaration="false"/>
   
   <p:option name="idml"/>
   <p:option name="debug" select="'no'"/>
