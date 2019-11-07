@@ -10,3 +10,6 @@
 [submodule "idml2xml"]
 	path = idml2xml
 	url = https://github.com/transpect/idml2xml
+[submodule "schema/hub"]
+	path = schema/hub
+	url = https://github.com/le-tex/Hub
