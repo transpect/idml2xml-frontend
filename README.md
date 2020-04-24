@@ -1,6 +1,6 @@
-# idml2xml-frontend
+# idml2xml
 
-Implements the [idml2xml](https://github.com/transpect/idml2xml) library to transform IDML to XML.
+Converts InDesign IDML to XML. Based on the transpect module [idml2xml](https://github.com/transpect/idml2xml).
 
 ## Introduction
 
