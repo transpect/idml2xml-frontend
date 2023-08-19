@@ -37,7 +37,7 @@ At least Java 1.7 is required.
 
 ## Clone this project
 
-This project depends on Git submodules. Therefore you have to clone it with the `--recursive` option to get the submodules, too:
+This project depends on Git submodules. Therefore you have to clone it with the `--recurse-submodules` option to get the submodules, too:
 
 ```
 git clone https://github.com/transpect/idml2xml-frontend --recurse-submodules
